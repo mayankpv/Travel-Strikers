@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Strikers | Premium Corporate Event Planners</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:#ffffff;color:#222}
+
+header{
+position:fixed;
+width:100%;
+background:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+box-shadow:0 3px 15px rgba(0,0,0,0.05);
+z-index:1000;
+}
+
+header img{height:60px}
+
+nav a{
+margin-left:30px;
+text-decoration:none;
+color:#222;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{color:#777}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://images.unsplash.com/photo-1515169067868-5387ec356754');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{font-size:60px;margin-bottom:20px;font-weight:700}
+.hero p{max-width:750px;margin:auto;font-size:18px;line-height:1.6}
+
+.btn{
+margin-top:35px;
+display:inline-block;
+padding:15px 35px;
+background:white;
+color:black;
+border-radius:40px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn:hover{background:#ddd}
+
+section{padding:100px 8%}
+
+.section-title{
+text-align:center;
+margin-bottom:60px;
+}
+
+.section-title h2{
+font-size:38px;
+margin-bottom:10px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:35px;
+}
+
+.card{
+padding:40px 30px;
+border-radius:15px;
+background:#fafafa;
+box-shadow:0 8px 25px rgba(0,0,0,0.05);
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 35px rgba(0,0,0,0.1);
+}
+
+.card h3{margin-bottom:12px}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.about img{width:100%;border-radius:15px}
+
+.stats{
+background:#111;
+color:white;
+}
+
+.stats-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+text-align:center;
+gap:30px;
+}
+
+.stat h3{font-size:40px;margin-bottom:10px}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:12px;
+}
+
+.contact{
+background:#fafafa;
+text-align:center;
+}
+
+.contact p{margin:10px 0}
+
+footer{
+background:#111;
+color:#bbb;
+text-align:center;
+padding:40px 20px;
+}
+
+@media(max-width:900px){
+
+.hero h1{font-size:40px}
+
+.about{
+grid-template-columns:1fr;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="logo.png" alt="Travel Strikers Logo">
+
+<nav>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#gallery">Events</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+
+<section class="hero">
+
+<div>
+<h1>Creating Extraordinary Corporate Experiences</h1>
+
+<p>
+Travel Strikers specializes in world‑class corporate event planning, destination conferences, leadership retreats, and unforgettable incentive travel experiences.
+</p>
+
+<a href="#contact" class="btn">Plan Your Event</a>
+</div>
+
+</section>
+
+
+<section id="services">
+
+<div class="section-title">
+<h2>Our Services</h2>
+<p>End‑to‑end corporate event solutions</p>
+</div>
+
+<div class="services">
+
+<div class="card">
+<h3>Corporate Conferences</h3>
+<p>Complete conference planning including venue sourcing, production, speaker management and on‑site coordination.</p>
+</div>
+
+<div class="card">
+<h3>Destination Events</h3>
+<p>Host premium events at stunning global destinations designed to inspire teams and clients.</p>
+</div>
+
+<div class="card">
+<h3>Leadership Retreats</h3>
+<p>Strategic retreats for executive teams that combine business sessions with unforgettable experiences.</p>
+</div>
+
+<div class="card">
+<h3>Incentive Travel</h3>
+<p>Reward top performers with curated luxury travel programs and experiences.</p>
+</div>
+
+<div class="card">
+<h3>Team Building Events</h3>
+<p>Creative team activities that strengthen collaboration and boost employee engagement.</p>
+</div>
+
+<div class="card">
+<h3>Annual Corporate Offsites</h3>
+<p>From concept to execution we design impactful offsite events for companies of every size.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="about">
+
+<div class="about">
+
+<div>
+
+<h2>About Travel Strikers</h2>
+
+<p style="margin-top:20px;line-height:1.7">
+Travel Strikers is a premium corporate event and travel planning company dedicated to delivering unforgettable business experiences.
+
+We specialize in corporate conferences, destination events, executive retreats and incentive travel programs. Our team handles every detail – from strategy and logistics to production and on‑site management.
+
+Our mission is simple: create extraordinary events that strengthen teams, inspire leadership and leave lasting memories.
+</p>
+
+</div>
+
+<img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678">
+
+</div>
+
+</section>
+
+
+<section class="stats">
+
+<div class="section-title">
+<h2>Our Impact</h2>
+</div>
+
+<div class="stats-grid">
+
+<div class="stat">
+<h3>150+</h3>
+<p>Events Organized</p>
+</div>
+
+<div class="stat">
+<h3>40+</h3>
+<p>Corporate Clients</p>
+</div>
+
+<div class="stat">
+<h3>20+</h3>
+<p>Destinations</p>
+</div>
+
+<div class="stat">
+<h3>10K+</h3>
+<p>Attendees Hosted</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="gallery">
+
+<div class="section-title">
+<h2>Event Highlights</h2>
+<p>Moments from our events</p>
+</div>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30">
+<img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622">
+<img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329">
+<img src="https://images.unsplash.com/photo-1515169067868-5387ec356754">
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d">
+<img src="https://images.unsplash.com/photo-1557804506-669a67965ba0">
+
+</div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+<div class="section-title">
+<h2>Contact Us</h2>
+<p>Let's plan your next corporate event</p>
+</div>
+
+<p>Email: info@travelstrikers.com</p>
+<p>Phone: +91 XXXXX XXXXX</p>
+<p>Location: India</p>
+
+<a class="btn" href="mailto:info@travelstrikers.com">Send Inquiry</a>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Travel Strikers. All Rights Reserved.</p>
+
+</footer>
+
+
+</body>
+</html>
